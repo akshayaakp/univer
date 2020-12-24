@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n,line,count;
+    scanf("%d",&n);
+
+    for(line=1;line<=n;line++)
+    {
+        for(count=1;count<=line;count++)
+            printf("%d ",line*count);
+        printf("\n");
+    }
+    return 0;
+}
